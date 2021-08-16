@@ -1,0 +1,186 @@
+@import url("https://fonts.googleapis.com/css2?family=Nunito:wght@400;700&display=swap");
+.root {
+  --primary-color: #88a2aa;
+  --grey: #4b5563;
+  --off-white: #f3f4f6;
+}
+
+body {
+  font-family: "Nunito", sans-serif;
+  margin: 0;
+  font-size: larger;
+}
+
+hr {
+  margin: 3rem 0;
+}
+
+/* Container */
+
+.container {
+  padding: 1rem;
+}
+
+.container-center {
+  max-width: 600px;
+  margin: auto;
+  display: table;
+  height: max-content;
+}
+
+/* Link */
+
+.link {
+  padding: 0.5rem 0.6rem;
+  text-decoration: none;
+  border-radius: 0.5rem;
+}
+
+.link-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.link-secondary {
+  background-color: white;
+  color: var(--primary-color);
+  border: 1px solid var(--primary-color);
+}
+
+/* List */
+
+.list {
+  list-style-type: none;
+}
+
+.list-inline {
+  padding-inline-start: 0;
+}
+
+.list-inline li {
+  display: inline;
+}
+
+/* Nav */
+
+.nav {
+  background-color: var(--primary-color);
+  color: white;
+  padding: 0.8rem;
+}
+
+.nav-header {
+  border-bottom-left-radius: 1.5rem;
+}
+
+.nav-heading {
+  font-size: 1.7rem;
+  font-weight: bold;
+}
+
+.nav-links {
+  text-align: right;
+}
+
+.nav-links li {
+  display: -webkit-inline-box;
+}
+
+.nav-link-active {
+  font-weight: bold;
+}
+
+/* Header */
+
+.header {
+  padding: 4rem 1rem;
+  max-width: 100%;
+}
+
+.hero-image {
+  display: block;
+  max-width: 300px;
+  margin: auto;
+  width: 100%;
+}
+
+.hero-text {
+  color: var(--grey);
+  text-align: center;
+}
+
+.header .highlight {
+  color: var(--primary-color);
+}
+
+/* Section */
+
+.section {
+  padding: 2rem;
+}
+
+.section h2 {
+  text-align: center;
+}
+
+.section-off-white {
+  background-color: var(--off-white);
+}
+
+/* Footer */
+
+.footer {
+  text-align: center;
+  border-top-right-radius: 1.5rem;
+}
+
+.tech-image {
+  display: inline;
+  max-width: 8rem;
+  width: 3rem;
+  padding: 10px;
+}
+
+/* Social Media icons */
+
+.social {
+  max-width: 50px;
+}
+
+p {
+  font-size: 1.2rem;
+}
+
+/* Custom padding */
+
+.pd-4 {
+  padding-bottom: 4rem;
+}
+
+.article {
+  text-align: left;
+  margin-bottom: 4rem;
+  height: max-content;
+  /* padding: 4rem; */
+}
+
+.article small {
+  color: var(--grey);
+}
+
+.article-heading {
+  margin: 0;
+  text-align: left;
+}
+
+.article-subheading {
+  color: var(--primary-color);
+}
+
+button {
+  margin: 1rem 0;
+}
+
+.check {
+  margin-top: 3rem;
+}
